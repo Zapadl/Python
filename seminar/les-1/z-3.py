@@ -13,9 +13,9 @@
 number = int(input('input your integer here: \t'))
 if number>0:
 for i in range(-number,number+1,1):
-print(i)
+    print(i)
 elif number==0:
-print(0)
+    print(0)
 else:
 for i in range(-number,number-1,-1):
-print(i)
+    print(i)

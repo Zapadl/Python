@@ -10,21 +10,13 @@ dmax= 0
 length= int(input("Сколько чисел будем вводить? "))
 for i in range(length):
       a=int(input("ВВедите число: "))
-      if a>max:
+      if a>dmax and a>max:
         dmax=max
         b=a
         max=b
-      if a<max and a>dmax:
+      else:
         c=a
         dmax=c
 print()
 print(f"Максимальное число {max}")
 print(f"Второе максимальное число {dmax}")
-
-# if a>dmax and a>max:
-#   dmax=max
-#   b=a
-#   max=b
-# else:
-#   c=a
-#   dmax=c
