@@ -22,7 +22,7 @@ while zarplata > 2:
     # print(f"3 - {zarplata}")
 while zarplata > 0:
     zarplata = zarplata - 1
-    p3 = p3 + 1
+    p1 = p1 + 1
     # print(f"1 - {zarplata}")
 
 

@@ -11,4 +11,19 @@ while x>y:
 while x<y:
     if x % 2==0 and x % 3 == 0: print(x)
     x += 1
+#
+# x, y = y, x #
+
+
+
+
+    # x,y =int(input("Введите число Х: ")), int(input("Введите число Y: "))
+# if y>x:
+    x,y = y,x
+#
+# # for i in range(x,y):
+# #     if i%2==0 and i%3==0:
+# #         print(i)
+
+
 
